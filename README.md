@@ -29,3 +29,6 @@ O Código HTML é estruturado em diferentes seções, cada uma com um propósito
 ## Estilos CSS
 
 Os estilos CSS fornecem a aparência visual do portfólio, incluindo fontes, cores, espaçamento e layout.
+## Atualizações
+
+Professor, fiz as correções recomendadas, porém não fiz a de dividir o conteúdo da página em outros arquivos HTML, pois nunca fiz e fiquei inseguro de não ficar totalmente funcional e bom. Obrigado pelas sugestões. No próximo projeto, farei melhor.
