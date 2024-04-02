@@ -15,6 +15,30 @@
     margin-bottom: 20px;
     background-color: #f0f0f0;
   }
+  nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
   table {
     width: 100%;
     border-collapse: collapse;
@@ -56,16 +80,17 @@
 </head>
 <body>
 
+<nav>
+  <ul>
+    <li><a href="#sobre">Sobre Mim</a></li>
+    <li><a href="#projeto1">Comunidade de Debates de Rainbow Six Siege</a></li>
+    <li><a href="#projeto2">Plataforma de Avaliação de Filmes</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+
 <header>
   <h1>Meu Portfólio</h1>
-  <nav>
-    <ul>
-      <li><a href="#sobre">Sobre Mim</a></li>
-      <li><a href="#projeto1">Comunidade de Debates de Rainbow Six Siege</a></li>
-      <li><a href="#projeto2">Plataforma de Avaliação de Filmes</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </nav>
 </header>
 
 <section id="sobre">
@@ -120,7 +145,7 @@
   </table>
 </section>
 
-  <section id="projeto2">
+<section id="projeto2">
   <h2>Plataforma de Avaliação de Filmes</h2>
   <p>Desenvolvi uma plataforma online onde os usuários podem avaliar e recomendar filmes, além de descobrir novos títulos com base nas avaliações da comunidade.</p>
   <table>
